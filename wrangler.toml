@@ -20,3 +20,8 @@ bindings = [{ name = "INBOX_DO", class_name = "InboxDurableObject" }]
 [[migrations]]
 tag = "v1"                           # Increment this tag each time you make changes to Durable Objects
 new_classes = ["InboxDurableObject"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bdb"
+database_id = "5fcbd2ea-f3a7-4e91-aa21-6a4c884b1732"
