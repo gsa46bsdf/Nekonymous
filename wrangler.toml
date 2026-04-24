@@ -21,6 +21,13 @@ mode = "smart"
 # tag = "v1"                           # Increment this tag each time you make changes to Durable Objects
 # new_classes = ["InboxDurableObject"]
 
+[durable_objects]
+bindings = [{ name = "CHAT_STATE", class_name = "ChatState" }]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatState"]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "bdb"
