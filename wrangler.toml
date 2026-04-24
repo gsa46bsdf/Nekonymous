@@ -14,12 +14,12 @@ mode = "smart"
 [vars]
 
 
-[durable_objects]
-bindings = [{ name = "INBOX_DO", class_name = "InboxDurableObject" }]
+# [durable_objects]
+# bindings = [{ name = "INBOX_DO", class_name = "InboxDurableObject" }]
 
-[[migrations]]
-tag = "v1"                           # Increment this tag each time you make changes to Durable Objects
-new_classes = ["InboxDurableObject"]
+# [[migrations]]
+# tag = "v1"                           # Increment this tag each time you make changes to Durable Objects
+# new_classes = ["InboxDurableObject"]
 
 [[d1_databases]]
 binding = "DB"
