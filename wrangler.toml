@@ -22,11 +22,13 @@ mode = "smart"
 # new_classes = ["InboxDurableObject"]
 
 [durable_objects]
-bindings = [{ name = "CHAT_STATE", class_name = "ChatState" }]
+bindings = [
+  { name = "CHAT", class_name = "Chat" } 
+]
 
 [[migrations]]
 tag = "v1"
-new_classes = ["ChatState"]
+new_classes = ["Chat"]
 
 [[d1_databases]]
 binding = "DB"
