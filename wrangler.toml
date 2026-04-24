@@ -5,7 +5,7 @@ compatibility_date = "2024-08-19"
 workers_dev = true
 
 kv_namespaces = [
-  { binding = "NekonymousKV", id = "de26a1b398614383a2b9702fafaa8824" },
+  { binding = "NekonymousKV", id = "4bc98daad8eb4902b912227707f98f2b" },
 ]
 
 [placement]
